@@ -4,10 +4,10 @@
   "description": "Stochel, projekt express",
   "main": "server01.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
-    "formidable": "^1.2.2",
-    "body-parser": "^1.19.0"
+    "formidable": "^1.2.2"
   },
   "devDependencies": {},
   "scripts": {
