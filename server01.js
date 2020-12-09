@@ -3,6 +3,7 @@
 const { request } = require("express");
 var express = require("express")
 var app = express()
+var PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje przydzielony przez Heroku
 const PORT = 3000;
 var formidable = require('formidable');
 var bodyParser = require("body-parser")
