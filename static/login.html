@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+
+</head>
+<body>
+    <div id="linki">
+        <a href="http://localhost:3000/main"><p id="main"><u>main</u></p></a>
+        <a href="http://localhost:3000/register"><p id="register"><u>register</u></p></a>
+        <a href="http://localhost:3000/login"><p id="login"><u>login</u></p></a>
+        <a href="http://localhost:3000/admin"><p id="admin"><u>admin</u></p></a>
+    </div>
+    <div id="mainPage"><p>login page</p></div>
+
+    <div id="form">
+        <form action="/login" method="POST">
+        
+            <div class="container">
+            <label for="login"><b>login: </b></label>
+            <input type="text" placeholder="Wpisz login" name="login" required>
+        
+            <label for="psw"><b>password: </b></label>
+            <input type="password" placeholder="Wpisz hasło" name="psw" required>
+
+            <button type="submit">Login</button>
+
+            </div>
+        
+        </form>
+    </div>
+</body>
+</html>
