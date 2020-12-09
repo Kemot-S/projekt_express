@@ -84,9 +84,9 @@ app.get("/register", function (req, res) {
             </head>
             <body>
                 <div id="linki">
-                    <a href="http://localhost:3000/main"><p id="main"><u>main</u></p></a>
-                    <a href="http://localhost:3000/register"><p id="register"><u>register</u></p></a>
-                    <a href="http://localhost:3000/login"><p id="login"><u>login</u></p></a>
+                    <a href="/main"><p id="main"><u>main</u></p></a>
+                    <a href="/register"><p id="register"><u>register</u></p></a>
+                    <a href="/login"><p id="login"><u>login</u></p></a>
             
                 </div>
                 <div id="mainPage"><p>nie jesteś zalogowany</p></div>
@@ -140,10 +140,10 @@ app.get('/show', function (req,res){
     </head>
     <body>
         <div id="linkiSerwer">
-            <a href="http://localhost:3000/show"><p id="show"><u>show</u></p></a>
-            <a href="http://localhost:3000/gender"><p id="gender"><u>gender</u></p></a>
-            <a href="http://localhost:3000/sort"><p id="sort"><u>sort</u></p></a>
-            <a href="http://localhost:3000/admin"><p id="admin"><u>admin</u></p></a>
+            <a href="/show"><p id="show"><u>show</u></p></a>
+            <a href="/gender"><p id="gender"><u>gender</u></p></a>
+            <a href="/sort"><p id="sort"><u>sort</u></p></a>
+            <a href="/admin"><p id="admin"><u>admin</u></p></a>
 
         </div>
         ` + show + `
@@ -201,10 +201,10 @@ app.get('/sort', function (req,res){
         </head>
         <body>
             <div id="linkiSerwer">
-            <a href="http://localhost:3000/show"><p id="show"><u>show</u></p></a>
-            <a href="http://localhost:3000/gender"><p id="gender"><u>gender</u></p></a>
-            <a href="http://localhost:3000/sort"><p id="sort"><u>sort</u></p></a>
-                <a href="http://localhost:3000/admin"><p id="admin"><u>admin</u></p></a>
+            <a href="/show"><p id="show"><u>show</u></p></a>
+            <a href="/gender"><p id="gender"><u>gender</u></p></a>
+            <a href="/sort"><p id="sort"><u>sort</u></p></a>
+                <a href="/admin"><p id="admin"><u>admin</u></p></a>
     
             </div>
             ` + sort + `
@@ -272,10 +272,10 @@ app.get('/sort', function (req,res){
         </head>
         <body>
             <div id="linkiSerwer">
-            <a href="http://localhost:3000/show"><p id="show"><u>show</u></p></a>
-            <a href="http://localhost:3000/gender"><p id="gender"><u>gender</u></p></a>
-            <a href="http://localhost:3000/sort"><p id="sort"><u>sort</u></p></a>
-                <a href="http://localhost:3000/admin"><p id="admin"><u>admin</u></p></a>
+            <a href="/show"><p id="show"><u>show</u></p></a>
+            <a href="/gender"><p id="gender"><u>gender</u></p></a>
+            <a href="/sort"><p id="sort"><u>sort</u></p></a>
+                <a href="/admin"><p id="admin"><u>admin</u></p></a>
     
             </div>
             ` + sort + `
@@ -343,10 +343,10 @@ app.get('/sort', function (req,res){
         </head>
         <body>
             <div id="linkiSerwer">
-            <a href="http://localhost:3000/show"><p id="show"><u>show</u></p></a>
-            <a href="http://localhost:3000/gender"><p id="gender"><u>gender</u></p></a>
-            <a href="http://localhost:3000/sort"><p id="sort"><u>sort</u></p></a>
-                <a href="http://localhost:3000/admin"><p id="admin"><u>admin</u></p></a>
+            <a href="/show"><p id="show"><u>show</u></p></a>
+            <a href="/gender"><p id="gender"><u>gender</u></p></a>
+            <a href="/sort"><p id="sort"><u>sort</u></p></a>
+                <a href="/admin"><p id="admin"><u>admin</u></p></a>
     
             </div>
             ` + sort + `
@@ -429,10 +429,10 @@ app.get('/gender', function (req,res){
     </head>
     <body>
         <div id="linkiSerwer">
-            <a href="http://localhost:3000/show"><p id="show"><u>show</u></p></a>
-            <a href="http://localhost:3000/gender"><p id="gender"><u>gender</u></p></a>
-            <a href="http://localhost:3000/sort"><p id="sort"><u>sort</u></p></a>
-            <a href="http://localhost:3000/admin"><p id="admin"><u>admin</u></p></a>
+            <a href="/show"><p id="show"><u>show</u></p></a>
+            <a href="/gender"><p id="gender"><u>gender</u></p></a>
+            <a href="/sort"><p id="sort"><u>sort</u></p></a>
+            <a href="/admin"><p id="admin"><u>admin</u></p></a>
 
         </div>
         <div id="tabele">
