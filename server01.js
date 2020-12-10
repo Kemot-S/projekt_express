@@ -55,7 +55,7 @@ app.get("/register", function (req, res) {
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
+                <title>Stochel 3ib2 express - miniprojekt</title>
                 <script src="./js/script.js"></script>
                 <style>
                     #linki{
@@ -113,7 +113,7 @@ app.get('/show', function (req,res){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Stochel 3ib2 express - miniprojekt</title>
         <script src="./js/script.js"></script>
         <style>
             #linkiSerwer{
@@ -169,7 +169,7 @@ app.get('/sort', function (req,res){
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
+            <title>Stochel 3ib2 express - miniprojekt</title>
             <script src="./js/script.js"></script>
             <style>
                 #linkiSerwer{
@@ -244,7 +244,7 @@ app.get('/sort', function (req,res){
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
+            <title>Stochel 3ib2 express - miniprojekt</title>
             <script src="./js/script.js"></script>
             <style>
                 #linkiSerwer{
@@ -320,7 +320,7 @@ app.get('/sort', function (req,res){
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
+            <title>Stochel 3ib2 express - miniprojekt</title>
             <script src="./js/script.js"></script>
             <style>
                 #linkiSerwer{
@@ -411,7 +411,7 @@ app.get('/gender', function (req,res){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Stochel 3ib2 express - miniprojekt</title>
         <script src="./js/script.js"></script>
         <style>
             #linkiSerwer{
@@ -482,7 +482,7 @@ app.post("/register", function (req,res){
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
+                <title>Stochel 3ib2 express - miniprojekt</title>
                 </head>
                 <body>
                     Taki użytkownik już istnieje
