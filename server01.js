@@ -294,7 +294,7 @@ app.get('/sort', function (req,res){
                     <input type="radio" name="kolejność" value="malejąco">
                 </form>
             </div>
-            
+
             ` + sort + `
 
         </body>
@@ -435,7 +435,7 @@ app.get('/gender', function (req,res){
             }
             #tabele{
                 display: flex;
-                justify-content: center;
+                justify-content: space-evenly;
                 flex-direction: row;
             }
 
