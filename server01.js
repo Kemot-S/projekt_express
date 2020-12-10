@@ -196,6 +196,9 @@ app.get('/sort', function (req,res){
                     justify-content: center;
                     padding: 20px;
                 }
+                label{
+                    color: #e4d7d7;
+                }
             </style>
         
         </head>
@@ -207,16 +210,17 @@ app.get('/sort', function (req,res){
                 <a href="/admin"><p id="admin"><u>admin</u></p></a>
     
             </div>
+            <div id="kolejnocs">
+            <form action="/kolejnosc" method="POST" onchange="this.submit()">
+                <label for="rosnąco">rosnąco</label>
+                <input type="radio" name="kolejność" value="rosnąco">
+                <label for="malejąco">malejąco</label>
+                <input type="radio" name="kolejność" value="malejąco">
+            </form>
+        </div>
+
             ` + sort + `
             
-            <div id="kolejnocs">
-                <form action="/kolejnosc" method="POST" onchange="this.submit()">
-                    <label for="rosnąco">rosnąco</label>
-                    <input type="radio" name="kolejność" value="rosnąco">
-                    <label for="malejąco">malejąco</label>
-                    <input type="radio" name="kolejność" value="malejąco">
-                </form>
-            </div>
         </body>
         </html>`)
     }
@@ -267,6 +271,9 @@ app.get('/sort', function (req,res){
                     justify-content: center;
                     padding: 20px;
                 }
+                label{
+                    color: #e4d7d7;
+                }
             </style>
         
         </head>
@@ -278,8 +285,7 @@ app.get('/sort', function (req,res){
                 <a href="/admin"><p id="admin"><u>admin</u></p></a>
     
             </div>
-            ` + sort + `
-            
+                        
             <div id="kolejnocs">
                 <form action="/kolejnosc" method="POST" onchange="this.submit()">
                     <label for="rosnąco">rosnąco</label>
@@ -288,6 +294,9 @@ app.get('/sort', function (req,res){
                     <input type="radio" name="kolejność" value="malejąco">
                 </form>
             </div>
+            
+            ` + sort + `
+
         </body>
         </html>`)
     }
@@ -316,8 +325,7 @@ app.get('/sort', function (req,res){
             <style>
                 #linkiSerwer{
                     display: flex;
-                    justify-content: center;
-                    flex-direction: row;
+                    justify-content: flex-start;
                 }
                 p{
                     padding: 20px;
@@ -427,7 +435,8 @@ app.get('/gender', function (req,res){
             }
             #tabele{
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
+                flex-direction: row;
             }
 
         </style>
